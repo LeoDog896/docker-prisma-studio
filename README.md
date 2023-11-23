@@ -4,11 +4,13 @@ Access Prisma Studio securely through your web browser.
 
 Share multiple database environments' access with colleagues. Deployed via Traefik for global access.
 
+A maintained fork of [https://github.com/timothymiller/docker-prisma-studio](timothymiller/docker-prisma-studio).
+
 ## 📊 Stats
 
-| Size  | Downloads | Discord |
-| ------------- | ------------- | ------------- |
-| [![prisma-studio docker image size](https://img.shields.io/docker/image-size/timothyjmiller/prisma-studio?style=flat-square)](https://hub.docker.com/r/timothyjmiller/prisma-studio "prisma-studio docker image size")  | [![Total DockerHub pulls](https://img.shields.io/docker/pulls/timothyjmiller/prisma-studio?style=flat-square)](https://hub.docker.com/r/timothyjmiller/prisma-studio "Total DockerHub pulls")  | [![Official Discord Server](https://img.shields.io/discord/788313754181173259?style=flat-square)](https://discord.gg/gtF4AX9UGA "Official Discord Server")
+| Size  | Downloads |
+| ------------- | ------------- |
+| [![prisma-studio docker image size](https://img.shields.io/docker/image-size/LeoDog896/prisma-studio?style=flat-square)](https://hub.docker.com/r/LeoDog896/prisma-studio "prisma-studio docker image size")  | [![Total DockerHub pulls](https://img.shields.io/docker/pulls/LeoDog896/prisma-studio?style=flat-square)](https://hub.docker.com/r/LeoDog896/prisma-studio "Total DockerHub pulls")
 
 ## ⁉️ How Private & Secure?
 
@@ -68,8 +70,6 @@ You may have to change the port numbers for ```Postgres``` & ```Prisma Studio```
 
 ## ☁️ Enterprise Deployments
 
-For DevOps help setting up an on-premise or cloud-agnostic environment for software engineers, [email me](mailto:tim.miller@preparesoftware.com?subject=[GitHub%20Consulting]%20docker-prisma-studio) or [contact me on Discord](https://discord.gg/gtF4AX9UGA)
-
 For example, before deploying this in a production environment, you will want to setup Traefik middleware for authentication to limit database access.
 
 Create three ```.env``` configs
@@ -83,11 +83,3 @@ Each config should have it's own database name (development, testing, and produc
 ## License
 
 This Template is licensed under the GNU General Public License, version 3 (GPLv3).
-
-## Author
-
-Timothy Miller
-
-[View my GitHub profile 💡](https://github.com/timothymiller)
-
-[View my personal website 💻](https://timknowsbest.com)

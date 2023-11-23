@@ -14,7 +14,7 @@ A maintained fork of [https://github.com/timothymiller/docker-prisma-studio](tim
 
 ## ⁉️ How Private & Secure?
 
-1. 🪨 Stable Debian-slim base image
+1. 🪨 Small alpine-based image
 2. 🔒 100% [Docker Bench Security](https://github.com/docker/docker-bench-security) compliant
 3. 👨‍💻 Open source for open audits
 4. 📈 Regular updates
